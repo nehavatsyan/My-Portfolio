@@ -1,0 +1,134 @@
+body {
+    background-image: url("img/wal.jpg");
+   }
+
+header {
+   background-color: black;
+   width: 100%;
+   color: white;
+}
+
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container-one {
+    margin-left: 100px;
+}
+
+/*font awesome styling */
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+      opacity: 0.7;
+}
+
+ /*body content styling */
+
+.container-fluid {
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+#container-two {
+    margin: 100px auto;
+}
+
+.featured-work {
+    width: 350px;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: 	#ffd9cc;
+}
+
+.img-container {
+    width: 60%
+}
+
+.text-container {
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #000000;
+    
+}
+
+.featured-text {
+    font-family: Algerian;
+}
+
+/*media Queries */
+
+@media screen and (max-width: 1000px)and (min-width: 500px)
+{
+    .img-container {
+        width: 80%;
+    }
+    .featured-work {
+        width: 80%;
+    }
+    .fa{
+        padding: 10px;
+    }
+    #container-one {
+        margin: 10px;
+    }
+    #container-two {
+        margin: 10px auto;
+    }
+    #featured-img {
+        width: 100%;
+    }
+    .featured-text {
+        margin-left: 90px;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+   .logo {
+       width: 100px;
+   }
+   .img-container {
+    width: 100%;
+    }
+    .featured-work {
+        width: 100%;
+    }
+    .featured-text {
+        margin-left: 10px;
+    }
+    #container-two {
+        margin: 10px auto;
+    }
+    .fa{
+        padding: 10px;
+    }
+    #container-one {
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 320px)
+{
+   .logo {
+       width: 65px;
+   }
+}
+
+/*footer styling */
+
+footer {
+    text-align: center;
+    background-color: #000000;
+    color: #639df9;
+    padding: 50px;
+}
