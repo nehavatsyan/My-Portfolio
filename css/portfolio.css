@@ -2,7 +2,7 @@ body {
     background-image: url("../wal.jpg");
    }
 
-.container {
+header {
    background-color: black;
    width: 100%;
    color: white;
@@ -122,4 +122,13 @@ body {
    .logo {
        width: 65px;
    }
+}
+
+/*footer styling */
+
+footer {
+    text-align: center;
+    background-color: #000000;
+    color: #639df9;
+    padding: 50px;
 }
